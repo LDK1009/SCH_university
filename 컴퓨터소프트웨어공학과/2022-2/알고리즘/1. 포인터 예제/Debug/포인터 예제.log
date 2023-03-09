@@ -1,0 +1,21 @@
+﻿  pointer.c
+c:\users\min hong\desktop\포인터 예제\pointer.c(14): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(14): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(18): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(18): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(19): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int **'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(19): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int **'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(21): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(21): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(22): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int **'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(22): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int **'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(23): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int ***'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(23): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int ***'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(25): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(25): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(26): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int **'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(26): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int **'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(27): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+c:\users\min hong\desktop\포인터 예제\pointer.c(27): warning C4477: 'printf' : 서식 문자열 '%x'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+  포인터 예제.vcxproj -> C:\Users\Min Hong\Desktop\포인터 예제\Debug\포인터 예제.exe
+  포인터 예제.vcxproj -> C:\Users\Min Hong\Desktop\포인터 예제\Debug\포인터 예제.pdb (Partial PDB)

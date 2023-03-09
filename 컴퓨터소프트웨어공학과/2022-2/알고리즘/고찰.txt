@@ -1,0 +1,2 @@
+feof, file - end of file
+https://me.tistory.com/380

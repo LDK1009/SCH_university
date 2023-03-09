@@ -1,0 +1,9 @@
+﻿  소스.c
+c:\users\이동규\desktop\이동규\대학\컴퓨터소프트웨어공학과\알고리즘\6. 학생정보 저장을 위한 동적할당\project1\project1\소스.c(21): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 'fopen' 선언을 참조하십시오.
+c:\users\이동규\desktop\이동규\대학\컴퓨터소프트웨어공학과\알고리즘\6. 학생정보 저장을 위한 동적할당\project1\project1\소스.c(25): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: 'fscanf' 선언을 참조하십시오.
+c:\users\이동규\desktop\이동규\대학\컴퓨터소프트웨어공학과\알고리즘\6. 학생정보 저장을 위한 동적할당\project1\project1\소스.c(35): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1197): note: 'fscanf' 선언을 참조하십시오.
+c:\users\이동규\desktop\이동규\대학\컴퓨터소프트웨어공학과\알고리즘\6. 학생정보 저장을 위한 동적할당\project1\project1\소스.c(38): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.

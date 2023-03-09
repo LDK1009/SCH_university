@@ -1,0 +1,9 @@
+﻿  double_opinter.c
+g:\강의 자료\2021년 2학기\자료구조 2\자료구조 2 이론\자료구조2 강의노트\01 구조체 & 포인터\이중포인터 예제 2\double_opinter.c(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
+g:\강의 자료\2021년 2학기\자료구조 2\자료구조 2 이론\자료구조2 강의노트\01 구조체 & 포인터\이중포인터 예제 2\double_opinter.c(24): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1195): note: 'fscanf' 선언을 참조하십시오.
+g:\강의 자료\2021년 2학기\자료구조 2\자료구조 2 이론\자료구조2 강의노트\01 구조체 & 포인터\이중포인터 예제 2\double_opinter.c(41): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1195): note: 'fscanf' 선언을 참조하십시오.
+  이중포인터 예제 2.vcxproj -> G:\강의 자료\2021년 2학기\자료구조 2\자료구조 2 이론\자료구조2 강의노트\01 구조체 & 포인터\이중포인터 예제 2\Debug\이중포인터 예제 2.exe
+  이중포인터 예제 2.vcxproj -> G:\강의 자료\2021년 2학기\자료구조 2\자료구조 2 이론\자료구조2 강의노트\01 구조체 & 포인터\이중포인터 예제 2\Debug\이중포인터 예제 2.pdb (Partial PDB)
