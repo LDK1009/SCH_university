@@ -65,31 +65,31 @@ Init(void)
 
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluPerspective(60.0, 1.0, 0.1, 1000.0);
+    gluPerspective(60.0, 1.0, 0.1, 1000.0);     // 뷰포트 위치
     glMatrixMode(GL_MODELVIEW);
     glDisable(GL_DITHER);
 
     /* Create image */
     img = ubImage;
-    for (j = 0; j < 32 * imgWidth; j++) {
-        *img++ = 0xff;
-        *img++ = 0x00;
-        *img++ = 0x00;
-        *img++ = 0xff;
-    }
-    for (j = 0; j < 32 * imgWidth; j++) {
+    for (j = 0; j < 15 * imgWidth; j++) {   // 자주
         *img++ = 0xff;
         *img++ = 0x00;
         *img++ = 0xff;
         *img++ = 0x00;
     }
-    for (j = 0; j < 32 * imgWidth; j++) {
+    for (j = 0; j < 15 * imgWidth; j++) {   // 빨강
+        *img++ = 0xff;
+        *img++ = 0x00;
+        *img++ = 0x00;
+        *img++ = 0xff;
+    }
+    for (j = 0; j < 15 * imgWidth; j++) {   // 노랑
         *img++ = 0xff;
         *img++ = 0xff;
         *img++ = 0x00;
         *img++ = 0x00;
     }
-    for (j = 0; j < 32 * imgWidth; j++) {
+    for (j = 0; j < 15 * imgWidth; j++) {   // 연두
         *img++ = 0x00;
         *img++ = 0xff;
         *img++ = 0x00;

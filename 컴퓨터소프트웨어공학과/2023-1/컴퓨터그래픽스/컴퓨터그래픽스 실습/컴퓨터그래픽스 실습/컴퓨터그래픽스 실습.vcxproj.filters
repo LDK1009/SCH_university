@@ -18,5 +18,8 @@
     <ClCompile Include="컴퓨터그래픽스 실습.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="내맘대로실습.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
