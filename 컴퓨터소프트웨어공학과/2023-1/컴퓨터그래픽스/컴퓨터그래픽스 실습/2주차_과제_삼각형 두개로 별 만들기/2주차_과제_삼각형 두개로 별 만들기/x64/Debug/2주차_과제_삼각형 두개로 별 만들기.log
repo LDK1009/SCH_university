@@ -1,0 +1,2 @@
+﻿  2주차_과제_삼각형 두개로 별 만들기.cpp
+LINK : fatal error LNK1104: 'glut32.lib' 파일을 열 수 없습니다.

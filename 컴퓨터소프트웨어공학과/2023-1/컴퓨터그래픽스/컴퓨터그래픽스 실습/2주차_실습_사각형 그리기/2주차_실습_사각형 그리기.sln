@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2주차_실습_사각형 그리기", "2주차_실습_사각형 그리기\2주차_실습_사각형 그리기.vcxproj", "{BD6FB09F-569A-4816-91E9-48664C5D6EBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD6FB09F-569A-4816-91E9-48664C5D6EBE}.Debug|x64.ActiveCfg = Debug|x64
+		{BD6FB09F-569A-4816-91E9-48664C5D6EBE}.Debug|x64.Build.0 = Debug|x64
+		{BD6FB09F-569A-4816-91E9-48664C5D6EBE}.Debug|x86.ActiveCfg = Debug|Win32
+		{BD6FB09F-569A-4816-91E9-48664C5D6EBE}.Debug|x86.Build.0 = Debug|Win32
+		{BD6FB09F-569A-4816-91E9-48664C5D6EBE}.Release|x64.ActiveCfg = Release|x64
+		{BD6FB09F-569A-4816-91E9-48664C5D6EBE}.Release|x64.Build.0 = Release|x64
+		{BD6FB09F-569A-4816-91E9-48664C5D6EBE}.Release|x86.ActiveCfg = Release|Win32
+		{BD6FB09F-569A-4816-91E9-48664C5D6EBE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAF90758-9081-413C-9299-AC9AF0970302}
+	EndGlobalSection
+EndGlobal
