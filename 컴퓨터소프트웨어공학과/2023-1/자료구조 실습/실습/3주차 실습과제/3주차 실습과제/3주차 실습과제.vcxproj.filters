@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2. 2중 배열.cpp">
+    <ClCompile Include="2. 이중 배열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1. 배열을 이용한 다항식.cpp">

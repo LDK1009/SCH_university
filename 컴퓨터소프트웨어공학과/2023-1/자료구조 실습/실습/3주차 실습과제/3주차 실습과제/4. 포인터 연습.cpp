@@ -1,3 +1,9 @@
+/*
+학과 : 컴퓨터소프트웨어공학과
+학번 : 20194463
+이름 : 이동규
+작성일자 : 2023.03.19
+*/
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>

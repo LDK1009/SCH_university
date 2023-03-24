@@ -54,6 +54,7 @@ int main()
 	else
 		printf("은 유효하지 않은 ISBN입니다. \n");
 
+	fclose(fp);
 	return 0;
 
 }
