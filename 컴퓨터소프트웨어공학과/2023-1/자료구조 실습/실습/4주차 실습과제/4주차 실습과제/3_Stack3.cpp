@@ -7,9 +7,9 @@
 
 typedef int element;
 
-typedef struct 
+typedef struct
 {
-	element stack{ MAX_STACK_SIZE };
+	element stack[MAX_STACK_SIZE];
 	int top;
 } StackType;
 
@@ -23,17 +23,17 @@ int is_empty(StackType* s)
 	return(s->top == -1);
 }
 
-int is_full(StackType)
+int is_full(StackType* s)
 {
 	return (s->top == (MAX_STACK_SIZE - 1));
 }
 
 void push(StackType* s, element item)
 {
-	if (is_full(&s))
+	if (is_full(s))
 		return;
 	else
-		s->stack[++(s->top)];
+		s->stack[++(s->top)] = item;
 }
 
 element pop(StackType* s)
@@ -51,6 +51,7 @@ element peek(StackType* s)
 	else
 		return s->stack[(s->top)];
 }
+
 
 element eval(char exp[])
 {
@@ -109,7 +110,7 @@ void main()
 		fscanf(fp, "%s", buf);
 		printf("후위표기식은 %s\n", buf);
 		result = eval(buf);
-		printf("결과값은 %d\n\n", result);
+		printf("결과값은 %d \n\n", result);
 	}
 	fclose(fp);
 }

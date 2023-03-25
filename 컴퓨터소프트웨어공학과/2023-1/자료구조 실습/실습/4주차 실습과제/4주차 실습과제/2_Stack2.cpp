@@ -9,7 +9,7 @@ typedef int element;
 
 typedef struct
 {
-	element stack{ MAX_STACK_SIZE };
+	element stack[MAX_STACK_SIZE];
 	int top;
 } StackType;
 
@@ -23,17 +23,17 @@ int is_empty(StackType* s)
 	return(s->top == -1);
 }
 
-int is_full(StackType)
+int is_full(StackType* s)
 {
 	return (s->top == (MAX_STACK_SIZE - 1));
 }
 
 void push(StackType* s, element item)
 {
-	if (is_full(&s))
+	if (is_full(s))
 		return;
 	else
-		s->stack[++(s->top)];
+		s->stack[++(s->top)] = item;
 }
 
 element pop(StackType* s)
@@ -52,7 +52,7 @@ element peek(StackType* s)
 		return s->stack[(s->top)];
 }
 
-int prec(char op)
+int prec(char op) // 연산자 우선순위 부여
 {
 	switch (op)
 	{
@@ -94,24 +94,24 @@ void infix_to_postfix(char exp[])
 				printf("%c", pop(&s));
 			push(&s, ch);
 			break;
-		case '(':
+		case '(':	// 왼쪽 괄호는 무조건 스택에 넣는다
 			push(&s, ch);
 			break;
 		case ')':
 			top_op = pop(&s);
 			while (top_op != '(')
 			{
-				printf("'%c'");
+				printf("%c", top_op);
 				top_op = pop(&s);
 			}
 			break;
-		default:
+		default:	// 피연산자
 			printf("%c", ch);
 			break;
 		}	//end of switch
 	}	//  end of while
 	while (!is_empty(&s))
-		printf("c", pop(&s));
+		printf("%c", pop(&s));
 }
 void main()
 {
