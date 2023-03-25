@@ -1,0 +1,12 @@
+﻿  3_Stack3.cpp
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(11,1): error C5208: typedef 이름에 사용되는 명명되지 않은 클래스가 비정적 데이터 멤버, 멤버 열거형 또는 멤버 클래스 이외의 멤버를 선언할 수 없습니다.
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(28,10): error C2065: 's': 선언되지 않은 식별자입니다.
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(33,6): error C2664: 'int is_full(StackType)': 인수 1을(를) 'StackType **'에서 'StackType'(으)로 변환할 수 없습니다.
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(33,14): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(26,5): message : 'is_full' 선언을 참조하십시오.
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(33,6): message : 인수 목록 '(StackType **)'을(를) 일치시키는 동안
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(36,22): error C2109: 첨자는 배열 또는 포인터 형식을 사용해야 합니다.
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(44,29): error C2109: 첨자는 배열 또는 포인터 형식을 사용해야 합니다.
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(52,27): error C2109: 첨자는 배열 또는 포인터 형식을 사용해야 합니다.
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(58,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(99,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
