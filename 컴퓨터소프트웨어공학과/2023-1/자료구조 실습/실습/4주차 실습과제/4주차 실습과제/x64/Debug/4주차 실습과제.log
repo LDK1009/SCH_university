@@ -1,4 +1,4 @@
-﻿  3_Stack3.cpp
-C:\Users\m3088\OneDrive\바탕 화면\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(59,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\m3088\OneDrive\바탕 화면\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\3_Stack3.cpp(100,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+﻿  2_Stack2.cpp
+C:\Users\m3088\OneDrive\바탕 화면\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\2_Stack2.cpp(76,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\m3088\OneDrive\바탕 화면\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\4주차 실습과제\2_Stack2.cpp(117,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
   4주차 실습과제.vcxproj -> C:\Users\m3088\OneDrive\바탕 화면\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\실습\4주차 실습과제\x64\Debug\4주차 실습과제.exe
