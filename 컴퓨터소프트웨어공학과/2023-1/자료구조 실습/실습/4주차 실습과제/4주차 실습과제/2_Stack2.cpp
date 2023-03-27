@@ -116,7 +116,7 @@ void infix_to_postfix(char exp[])
 void main()
 {
 	char buf[1024] = { 0 };
-	FILE* fp = fopen("data2_Stack2.txt", "r");
+	FILE *fp = fopen("data2_Stack2.txt", "r");
 
 	if (fp == NULL)
 		return;

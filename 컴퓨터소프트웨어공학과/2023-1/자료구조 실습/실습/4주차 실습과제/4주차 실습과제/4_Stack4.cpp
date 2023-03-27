@@ -5,6 +5,7 @@
 
 #define MAX_STACK_SIZE 100
 
+// 20194463 이동규
 typedef int element;
 
 typedef struct
@@ -36,6 +37,14 @@ void push(StackType* s, element item)
 		s->stack[++(s->top)] = item;
 }
 
+void push_bottom(StackType* s, element item)
+{
+	if (is_full(s))
+		return;
+	else
+		s->stack[0] = item;
+}
+
 element pop(StackType* s)
 {
 	if (is_empty(s))
@@ -55,18 +64,18 @@ element peek(StackType* s)
 
 element eval(char exp[])
 {
-	int op1, op2, value, i;
+	int op1, op2, value, i=0;
 	int len = strlen(exp);
 	char ch;
 	StackType s;
 
 	init(&s);
 
-	for (i = 0; i < len; i++)
+	for (i = 0; i<len; i++)
 	{
 		ch = exp[i];
 
-		if (ch != '+' && ch != '-' && ch != '*' && ch != '/')
+		if (ch != '+' && ch != '-' && ch != '*' && ch != '/')	//입력이 피연산자이면
 		{
 			value = ch - '0';
 			push(&s, value);
@@ -75,7 +84,7 @@ element eval(char exp[])
 		{
 			op2 = pop(&s);
 			op1 = pop(&s);
-			switch (ch)
+			switch (ch)	// 연산을 수행하고 스택에 저장
 			{
 			case '+':
 				push(&s, op1 + op2);
@@ -158,10 +167,55 @@ void infix_to_postfix(char exp[])
 		printf("%c", pop(&s));
 }
 
+void postfix_to_infix(char exp[])
+{
+	int i = 0;
+	char ch, top_op;
+	int len = strlen(exp);
+
+	StackType s;
+
+	init(&s);
+
+	for (i = 0; i < len; i++)
+	{
+		ch = exp[i];
+
+		switch (ch)
+		{
+		case '+':
+		case '-':
+		case '*':
+		case '/':
+				printf("%c", ch);
+				break;
+			//스택에 있는 연산자와 문자열의 연산자 우선순위 파악
+			while (!is_empty(&s) && (prec(ch) <= prec(peek(&s))))
+				printf("%c", pop(&s));
+		case '(':	// 왼쪽 괄호는 무조건 스택에 넣는다
+			push(&s, ch);
+			break;
+		case ')':
+			top_op = pop(&s);
+			while (top_op != '(')
+			{
+				printf("%c", top_op);
+				top_op = pop(&s);
+			}
+			break;
+		default:	// 피연산자
+			printf("%c", ch);
+			break;
+		}	//end of switch
+	}	//  end of while
+	while (!is_empty(&s))
+		printf("%c", pop(&s));
+}
+
 
 void main()
 {
-	int result;
+	int result, result1;
 	char buf[1024] = { 0 };
 	FILE* fp = fopen("data4_Stack4.txt", "r");
 
@@ -170,30 +224,30 @@ void main()
 
 	while (!feof(fp))
 	{
-		fscanf(fp, "%s", buf);
-		infix_to_postfix(buf);
-		printf("중위표기식은 %s\n", buf);
+		//fscanf(fp, "%s", buf);
+		//infix_to_postfix(buf);
+		//printf("중위표기식은 %s\n", buf);
+		//eval(buf);
+		//printf("후위표기식은 %s\n", buf);
+		//result = eval(buf);
+		//printf("결과값은 %d \n\n", result);
 
+		fscanf(fp, "%s", buf);
+		printf("중위표기식은 ");
+		postfix_to_infix(buf);
+		printf("\n");
+		printf("후위표기식은 ");
+		infix_to_postfix(buf);
+		printf("\n");
 		result = eval(buf);
+		printf("결과값은 %d \n\n", result);
+
+
+		/*fscanf(fp, "%s", buf);
 		printf("후위표기식은 %s\n", buf);
 		result = eval(buf);
 		printf("결과값은 %d \n\n", result);
+		*/
 	}
 	fclose(fp);
 }
-//void main()
-//{
-//	char buf[1024] = { 0 };
-//	FILE* fp = fopen("data2_Stack2.txt", "r");
-//
-//	if (fp == NULL)
-//		return;
-//
-//	while (!feof(fp))
-//	{
-//		fscanf(fp, "%s", buf);
-//		infix_to_postfix(buf);
-//		printf("\n");
-//	}
-//	fclose(fp);
-//}
