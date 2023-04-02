@@ -72,6 +72,14 @@ if (가운데 버튼 클릭)
 // 키보드 입력 중이 아닐 때 도형을 그리지 않기 위해 변수 생성
 bool MouseLeft = false, MouseMiddle = false, MouseRight = false;
 int mouseX, mouseY;
+int MouseX1, MouseY1, MouseX2, MouseY2;
+int numStar = 0 ;
+float starPositions[100][2];
+GLfloat rotationAngle = 0.0f;
+bool reverseRotation = false;
+GLint index = 0;
+GLfloat Delta = 0.0f;
+GLfloat angle = 0;
 
 unsigned char PALETTE[9][3] =
 {
@@ -89,8 +97,12 @@ unsigned char PALETTE[9][3] =
 // init 함수
 void init(void)
 {
-    glClearColor(0.0, 0.0, 0.0, 0.0);
-    glClear(GL_COLOR_BUFFER_BIT);
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
 }
 // end of init 함수
 
@@ -108,9 +120,37 @@ void reshape(int new_w, int new_h)
 }
 // end of reshape 함수
 
+void idleProcess()
+{
+    angle += 0.0001;
+    if (angle > 360.0)
+        angle = 0.0f;
+    glutPostRedisplay();
+
+}
+
+void timerProcess(int value)
+{
+    if (Delta < 2.0f)
+    {
+        Delta = Delta + 0.01f;
+
+        if (++index >= 8)
+        {
+            index = 0;
+            glClear(GL_COLOR_BUFFER_BIT);
+        }
+    }
+    else
+    {
+        Delta = 0.0f;
+    }
+    glutPostRedisplay();
+    glutTimerFunc(2000, timerProcess, 1);
+}
 
 // 별 그리기 함수
-void drawStar(int x, int y, int z, float size)
+void drawFirstStar(int x, int y, int z, float size)
 {
     glLoadIdentity();
     glTranslatef(x, y, z);
@@ -130,17 +170,64 @@ void drawStar(int x, int y, int z, float size)
 }
 // end of 별 그리기 함수
 
+void drawStar(float cx, float cy, float size, int numPoints) {
+    // Calculate outer and inner radius based on size
+    float outerRadius = size;
+    float innerRadius = size / 2.5f;
+
+    // Draw star
+    glBegin(GL_POLYGON);
+    for (int i = 0; i < numPoints * 2; i++) {
+        float angle = i * 360.0f / (numPoints * 2) * 3.14159f / 180;
+        float radius = i % 2 == 0 ? outerRadius : innerRadius;
+        glVertex2f(cx + radius * cos(angle), cy + radius * sin(angle));
+    }
+    glEnd();
+}
+
+
+
+// 선 그리기 함수
+void drawLine(float x1, float y1, float x2, float y2)
+{
+    glBegin(GL_LINES);
+    glVertex2f(x1, y1);
+    glVertex2f(x2, y2);
+    glEnd();
+}
+// end of 선 그리기 함수
 
 // 디스플레이 함수
 void display()
 {
-    drawStar(0, 0, 0, 0.1);
+    drawFirstStar(0, 0, 0, 0.1);
     glutSwapBuffers();
-    // 마우스 왼쪽 입력 시
-    if (MouseLeft)
-    {
-
+    // Draw all stars
+    for (int i = 0; i < numStar; i++) {
+        drawStar(starPositions[i][0], starPositions[i][1], 0.2f, 6);
     }
+
+    // Draw lines between stars
+    for (int i = 0; i < numStar - 1; i++) {
+        for (int j = i + 1; j < numStar; j++) {
+            glColor3f(1.0f, 1.0f, 1.0f);
+            drawLine((starPositions[i][0] + starPositions[j][0]) / 2.0f,
+                (starPositions[i][1] + starPositions[j][1]) / 2.0f,
+                (starPositions[i][0] + starPositions[j][0]) / 2.0f,
+                (starPositions[i][1] + starPositions[j][1]) / 2.0f);
+        }
+    }
+
+    // Draw lines between stars
+    for (int i = 0; i < numStar - 1; i++) {
+        for (int j = i + 1; j < numStar; j++) {
+            glColor3f(1.0f, 1.0f, 1.0f);
+            drawLine(starPositions[i][0], starPositions[i][1],
+                starPositions[j][0], starPositions[j][1]);
+        }
+    }
+
+    glutSwapBuffers();
     // 마우스 가운데 입력 시
     if (MouseMiddle)
     {
@@ -165,11 +252,14 @@ void mouseProcess(int button, int state, int x, int y)
 {
     if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
     {
-        mouseX = x - glutGet(GLUT_WINDOW_WIDTH) / 2;
-        mouseY = glutGet(GLUT_WINDOW_HEIGHT) / 2 - y;
-        glTranslatef(mouseX, mouseY, 0);
-        drawStar(x, y, 0, 0.1);
-        glutSwapBuffers();
+        // Add new star at clicked position
+        float cx = ((float)x / glutGet(GLUT_WINDOW_WIDTH) - 0.5f) * 2.0f;
+        float cy = ((float)(glutGet(GLUT_WINDOW_HEIGHT) - y) / glutGet(GLUT_WINDOW_HEIGHT) - 0.5f) * 2.0f;
+        starPositions[numStar][0] = cx;
+        starPositions[numStar][1] = cy;
+        numStar++;
+
+        glutPostRedisplay();
     }
     if (button == GLUT_MIDDLE_BUTTON && state == GLUT_DOWN)
     {
@@ -177,7 +267,8 @@ void mouseProcess(int button, int state, int x, int y)
     }
     if (button == GLUT_RIGHT_BUTTON && state == GLUT_DOWN)
     {
-        MouseRight = true;
+
+        glutPostRedisplay();
     }
 
 }
