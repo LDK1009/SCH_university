@@ -1,0 +1,2 @@
+﻿  03_3 3차원 큐브.cpp
+LINK : fatal error LNK1104: 'glut32.lib' 파일을 열 수 없습니다.
