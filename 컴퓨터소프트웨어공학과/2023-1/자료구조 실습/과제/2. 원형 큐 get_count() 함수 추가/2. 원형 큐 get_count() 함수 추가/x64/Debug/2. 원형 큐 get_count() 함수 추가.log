@@ -1,0 +1,4 @@
+﻿  2. 원형 큐 get_count() 함수 추가.cpp
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\과제\2. 원형 큐 get_count() 함수 추가\2. 원형 큐 get_count() 함수 추가\2. 원형 큐 get_count() 함수 추가.cpp(73,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\과제\2. 원형 큐 get_count() 함수 추가\2. 원형 큐 get_count() 함수 추가\2. 원형 큐 get_count() 함수 추가.cpp(77,9): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  2. 원형 큐 get_count() 함수 추가.vcxproj -> C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\자료구조 실습\과제\2. 원형 큐 get_count() 함수 추가\x64\Debug\2. 원형 큐 get_count() 함수 추가.exe
