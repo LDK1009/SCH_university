@@ -1,7 +1,9 @@
-set create() // 빈 집합을 생성하는 함수
-set insert(set s, Nat_Number x) // 원소 x를 집합 s에 추가하는 함수
-set remove(set s, Nat_Number x) // 원소 x를 집합 s에서 제거하는 함수
-bool is_in(set s, Nat_Number x) // 원소 x가 집합 s에 포함되어 있는지 확인하는 함수
-set union(set s1, set s2) // 두 집합 s1과 s2를 합쳐서 새로운 집합을 만드는 함수
-set intersection(set s1, set s2) // 두 집합 s1과 s2의 교집합을 구하는 함수
-set difference(set s1, set s2) // 두 집합 s1과 s2의 차집합을 구하는 함수
+객체정의 : 집합은 원소라 불리우는 데이터 요소들의 모임
+연산정의
+Create() :== 집합을 생성하여 반환한다
+Insert(s, item) :== 원소 item을 집합 s 에 반환한다
+Remove(s, item) :== 원소 item을 집합 s 에서 삭제한다
+Is_In(s, item) :== 집합 s에 item이 있는지 검사한다
+Unione(s1,s2) :== s1과 s2의 합집합을 구한다
+Intersection(s1,s2) :== s1과 s2의 교집합을 구한다
+Differece(s1,s2) :== s1과 s2의 차집합을 구한다
