@@ -20,20 +20,22 @@ typedef struct {
 
 polynomial poly_add(polynomial a, polynomial b)
 {
-	polynomial c;
+	polynomial c;	// 다항식의 차수를 출력하기 위한 temp 구조체
 	int Apos = 0, Bpos = 0, Cpos = 0;
 	int degree_a = a.degree;
 	int degree_b = b.degree;
 
-	if (a.degree > b.degree)
-		c.degree = a.degree; // a의 차수가 더 높으면 a 차수 다항식이다.
+	if (a.degree > b.degree)  // a의 차수가 더 높다면
+		c.degree = a.degree; // a 차수 다항식이다.
 	else
-		c.degree = b.degree;
+		c.degree = b.degree; // b의 차수가 더 높으면 b 차수 다항식이다.
 
-	while (Apos < a.degree && Bpos < b.degree) {
-		if (degree_a > degree_b) {
-			c.coef[Cpos++] = a.coef[Apos];
-			degree_a--;
+	while (Apos < a.degree && Bpos < b.degree)	// 차수가 0보다 크고
+	{
+		if (degree_a > degree_b)	// a 차수가 b 차수보다 크다면
+		{	
+			c.coef[Cpos++] = a.coef[Apos];	// a 차수 저장
+			degree_a--;		
 		}
 		else if (degree_a == degree_b) {
 			c.coef[Cpos++] = a.coef[Apos++] + b.coef[Bpos++];
