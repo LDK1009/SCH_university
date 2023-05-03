@@ -1,2 +1,7 @@
-﻿  08_5 Shading.cpp
-  컴퓨터그래픽스_20194463_이동규.vcxproj -> C:\Users\user\Desktop\컴퓨터그래픽스_20194463_이동규\Debug\컴퓨터그래픽스_20194463_이동규.exe
+﻿  08_4 Material Property.cpp
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\컴퓨터그래픽스\컴퓨터그래픽스 실습\08_4 Material Property.cpp(21,2): error C2660: 'glLightfv': 함수는 2개의 인수를 사용하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL\gl.h(1308,25): message : 'glLightfv' 선언을 참조하십시오.
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\컴퓨터그래픽스\컴퓨터그래픽스 실습\08_4 Material Property.cpp(21,2): message : 인수 목록 '(int, GLfloat [4])'을(를) 일치시키는 동안
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\컴퓨터그래픽스\컴퓨터그래픽스 실습\08_4 Material Property.cpp(22,2): error C2660: 'glLightfv': 함수는 2개의 인수를 사용하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\GL\gl.h(1308,25): message : 'glLightfv' 선언을 참조하십시오.
+C:\Users\이동규\Desktop\이동규\SCH_university\컴퓨터소프트웨어공학과\2023-1\컴퓨터그래픽스\컴퓨터그래픽스 실습\08_4 Material Property.cpp(22,2): message : 인수 목록 '(int, GLfloat [1])'을(를) 일치시키는 동안
