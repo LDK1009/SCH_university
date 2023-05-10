@@ -1,2 +1,3 @@
-﻿  08_5 Shading.cpp
+﻿  OBJ Viewer.cpp
+C:\Users\user\Desktop\컴퓨터그래픽스_20194463_이동규\OBJ Viewer.cpp(96,6): warning C4101: 'tmp' :참조되지 않은 지역 변수입니다.
   컴퓨터그래픽스_20194463_이동규.vcxproj -> C:\Users\user\Desktop\컴퓨터그래픽스_20194463_이동규\Debug\컴퓨터그래픽스_20194463_이동규.exe
