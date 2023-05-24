@@ -15,46 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="컴퓨터그래픽스_20194463_이동규.cpp">
+    <ClCompile Include="week12_Particle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="06_1 Planet.cpp">
+    <ClCompile Include="CCircle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="06_2 Planet+은면제거.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="07_1 Pop-up Menu.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="07_2 Popup Menu2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="07_3 RGB Color Cube.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9주차 과제.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="08_1 Alpha Blending.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="08_2 Light Example 1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="08_3 Moving Lighting Example.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="08_4 Material Property.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="08_5 Shading.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="OBJ Viewer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1.cpp">
+    <ClCompile Include="CParticle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
