@@ -14,9 +14,12 @@ class Player {
 }
 
 class Computer extends Player {
+	@Override
 	public Computer(String name) {
 		super(name);
 	}
+
+	@Override
 	public int turn() {
 		return (int)(Math.random() * 3 + 1); // 1부터 3까지의 수
 	}	
