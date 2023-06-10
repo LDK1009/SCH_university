@@ -1,0 +1,19 @@
+
+Y
+java:S6208;"CMerge the previous cases into this one using comma-separated label.(¼ì—Ü
+^
+java:S6208?"CMerge the previous cases into this one using comma-separated label.(œûµàøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(»œŒ
+D
+java:S2140")Use "java.util.Random.nextInt()" instead.(šíœÂıÿÿÿÿ
+?
+java:S1197"*Move the array designators [] to the type.(ƒ¶j
+B
+java:S1659&",Declare "computerChoice" on a separate line.(×Í²Ò
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(Şì’Õúÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(¡„§âşÿÿÿÿ
+M	java:S1063"9Replace this use of System.out or System.err by a logger.(”±í
+<	java:S1316""Add a default case to this switch.(Şğ’òøÿÿÿÿ
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(Å‡ï 
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(Ì¤€˜
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(†’¾Ëûÿÿÿÿ

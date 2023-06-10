@@ -1,0 +1,11 @@
+
+>
+java:S1604<"(Make this anonymous inner class a lambda(öÙ£
+d
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ
+[
+java:S3252"@Use static access with "javax.swing.SwingConstants" for "RIGHT".(õ€œèÿÿÿÿÿ
+[
+java:S3252/"@Use static access with "javax.swing.SwingConstants" for "RIGHT".(õ€œèÿÿÿÿÿ
+W
+java:S32524"AUse static access with "javax.swing.SwingConstants" for "CENTER".(Šú’

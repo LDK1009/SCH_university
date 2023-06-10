@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "자료구조_기말 오픈소스", "자료구조_기말 오픈소스\자료구조_기말 오픈소스.vcxproj", "{E7948E28-BE44-4051-9A6C-A3A767577D59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7948E28-BE44-4051-9A6C-A3A767577D59}.Debug|x64.ActiveCfg = Debug|x64
+		{E7948E28-BE44-4051-9A6C-A3A767577D59}.Debug|x64.Build.0 = Debug|x64
+		{E7948E28-BE44-4051-9A6C-A3A767577D59}.Debug|x86.ActiveCfg = Debug|Win32
+		{E7948E28-BE44-4051-9A6C-A3A767577D59}.Debug|x86.Build.0 = Debug|Win32
+		{E7948E28-BE44-4051-9A6C-A3A767577D59}.Release|x64.ActiveCfg = Release|x64
+		{E7948E28-BE44-4051-9A6C-A3A767577D59}.Release|x64.Build.0 = Release|x64
+		{E7948E28-BE44-4051-9A6C-A3A767577D59}.Release|x86.ActiveCfg = Release|Win32
+		{E7948E28-BE44-4051-9A6C-A3A767577D59}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {656D80B0-15D1-4766-8978-DFC71E86D3B3}
+	EndGlobalSection
+EndGlobal

@@ -14,7 +14,7 @@ class Player {
 }
 
 class Computer extends Player {
-	@Override
+
 	public Computer(String name) {
 		super(name);
 	}
