@@ -1,0 +1,9 @@
+
+^
+java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(Ù”Ù‹
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(˜¯¼Ìþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¸¹÷ ÿÿÿÿÿ
+B
+java:S1905"'Remove this unnecessary cast to "char".(¸¹÷ ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(÷ãùÖúÿÿÿÿ

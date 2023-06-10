@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge.iml" filepath="$PROJECT_DIR$/OpenChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge02/OpenChallenge02.iml" filepath="$PROJECT_DIR$/OpenChallenge02/OpenChallenge02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge03/OpenChallenge03.iml" filepath="$PROJECT_DIR$/OpenChallenge03/OpenChallenge03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge04/OpenChallenge04.iml" filepath="$PROJECT_DIR$/OpenChallenge04/OpenChallenge04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge05/OpenChallenge05.iml" filepath="$PROJECT_DIR$/OpenChallenge05/OpenChallenge05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge06/OpenChallenge06.iml" filepath="$PROJECT_DIR$/OpenChallenge06/OpenChallenge06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge07/OpenChallenge07.iml" filepath="$PROJECT_DIR$/OpenChallenge07/OpenChallenge07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge08/OpenChallenge08.iml" filepath="$PROJECT_DIR$/OpenChallenge08/OpenChallenge08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge09/OpenChallenge09.iml" filepath="$PROJECT_DIR$/OpenChallenge09/OpenChallenge09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge10/OpenChallenge10.iml" filepath="$PROJECT_DIR$/OpenChallenge10/OpenChallenge10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge11/OpenChallenge11.iml" filepath="$PROJECT_DIR$/OpenChallenge11/OpenChallenge11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge12/OpenChallenge12.iml" filepath="$PROJECT_DIR$/OpenChallenge12/OpenChallenge12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge13/OpenChallenge13.iml" filepath="$PROJECT_DIR$/OpenChallenge13/OpenChallenge13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge14/OpenChallenge14.iml" filepath="$PROJECT_DIR$/OpenChallenge14/OpenChallenge14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge15/OpenChallenge15.iml" filepath="$PROJECT_DIR$/OpenChallenge15/OpenChallenge15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenChallenge16/OpenChallenge16.iml" filepath="$PROJECT_DIR$/OpenChallenge16/OpenChallenge16.iml" />
+    </modules>
+  </component>
+</project>

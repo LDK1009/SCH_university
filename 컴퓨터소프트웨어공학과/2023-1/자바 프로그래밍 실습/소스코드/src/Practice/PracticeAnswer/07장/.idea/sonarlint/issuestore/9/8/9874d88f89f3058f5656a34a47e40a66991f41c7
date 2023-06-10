@@ -1,0 +1,29 @@
+
+{
+java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(¼ä³ÿÿÿÿÿ8â­Óùˆ1
+e
+java:S6208"CMerge the previous cases into this one using comma-separated label.(¼ßõ‚ûÿÿÿÿ8â­Óùˆ1
+`
+java:S6208"CMerge the previous cases into this one using comma-separated label.(Ïºˆ¯8â­Óùˆ1
+e
+java:S6208"CMerge the previous cases into this one using comma-separated label.(ü’Ûˆûÿÿÿÿ8â­Óùˆ1
+e
+java:S6208"CMerge the previous cases into this one using comma-separated label.(è‰½Ôùÿÿÿÿ8â­Óùˆ1
+e
+java:S6208$"CMerge the previous cases into this one using comma-separated label.(Õº™ğşÿÿÿÿ8â­Óùˆ1
+e
+java:S6208C"CMerge the previous cases into this one using comma-separated label.(Õº™ğşÿÿÿÿ8´åÓùˆ1
+h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(áîå(8ã­Óùˆ1
+u
+java:S1450
+"SRemove the "aver" field and declare it as a local variable in the relevant methods.(Øôâïÿÿÿÿÿ8™®Óùˆ1
+‚
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¬ğ‰µ8š®Óùˆ1
+‡
+java:S11491"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¼ä³ÿÿÿÿÿ8š®Óùˆ1
+C	java:S131""Add a default case to this switch.(ÙÃÖÍşÿÿÿÿ8®Óùˆ1
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(Ÿ¡˜ı8¡®Óùˆ1
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(­¹Ùş8³ÚÖùˆ1
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(çï†ôÿÿÿÿÿ8µüÜùˆ1
+@
+java:S1128"Remove this duplicated import.(ÒÜÅ¸úÿÿÿÿ8¢®Óùˆ1

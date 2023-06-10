@@ -1,0 +1,10 @@
+
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Ï—ë±ÿÿÿÿÿ
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ÏÀù¢
+N	java:S106	"9Replace this use of System.out or System.err by a logger.(ÔúÁ¡
+S	java:S106"9Replace this use of System.out or System.err by a logger.(»ñîÃùÿÿÿÿ
+U	java:S899";Do something with the "boolean" value returned by "delete".(ñ¦Ðéÿÿÿÿÿ
+i
+java:S4042"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(ñ¦Ðéÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ûï¿Šøÿÿÿÿ

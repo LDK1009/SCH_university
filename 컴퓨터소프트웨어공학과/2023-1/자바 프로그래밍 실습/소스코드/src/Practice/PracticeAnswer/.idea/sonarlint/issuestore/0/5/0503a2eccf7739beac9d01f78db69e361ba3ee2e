@@ -1,0 +1,20 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(’Ù‘8•àßşˆ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(âÖ¢ı8–àßşˆ1
+Y
+java:S4973$"<Strings and Boxed types should be compared using "equals()".(¢Û€Ì8–àßşˆ1
+
+java:S1149
+"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ìÑÉ8¶àßşˆ1
+‚
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(’Ù‘8¶àßşˆ1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ïÖØ8·àßşˆ1
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(¢é®8¹àßşˆ1
+i
+java:S2677"LUse or store the value returned from "readLine" instead of throwing it away.(ø™×8ºàßşˆ1
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(­¬˜»8»àßşˆ1
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(‹œÃ‘úÿÿÿÿ8»àßşˆ1
+L
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8¼àßşˆ1

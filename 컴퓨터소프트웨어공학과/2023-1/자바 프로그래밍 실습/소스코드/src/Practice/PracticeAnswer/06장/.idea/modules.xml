@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/06장.iml" filepath="$PROJECT_DIR$/.idea/06장.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap06-prac01/chap06-prac01.iml" filepath="$PROJECT_DIR$/chap06-prac01/chap06-prac01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap06-prac03-원본/chap06-prac03-원본.iml" filepath="$PROJECT_DIR$/chap06-prac03-원본/chap06-prac03-원본.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap06-prac03-정답/chap06-prac03-정답.iml" filepath="$PROJECT_DIR$/chap06-prac03-정답/chap06-prac03-정답.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap06-prac05/chap06-prac05.iml" filepath="$PROJECT_DIR$/chap06-prac05/chap06-prac05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap06-prac07-1/chap06-prac07-1.iml" filepath="$PROJECT_DIR$/chap06-prac07-1/chap06-prac07-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap06-prac07-2/chap06-prac07-2.iml" filepath="$PROJECT_DIR$/chap06-prac07-2/chap06-prac07-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap06-prac09/chap06-prac09.iml" filepath="$PROJECT_DIR$/chap06-prac09/chap06-prac09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chap06-prac11/chap06-prac11.iml" filepath="$PROJECT_DIR$/chap06-prac11/chap06-prac11.iml" />
+    </modules>
+  </component>
+</project>

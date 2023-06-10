@@ -1,0 +1,12 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(γ•Ε„8Φώτχ1
+‡
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(­―γ”όÿÿÿÿ8θώτχ1
+‚
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(γ•Ε„8θώτχ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(”­Π·8λώτχ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(§ΨΪ΄8οώτχ1
+`
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(σΥκψÿÿÿÿ8πώτχ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ά•ρόÿÿÿÿ8πώτχ1

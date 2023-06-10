@@ -1,0 +1,23 @@
+
+U
+%08장/chap08-prac01/chap08-prac01.iml,b\0\b0384557d295c3af0c8a6f81b8b5b62ae7efe66f
+Z
+*08장/chap08-prac01/src/PhoneWriterEx.java,c\1\c1f6deff6e0c25bc27eec0d3591113019ae4b897
+O
+08장/chap08-prac01/src/my.java,2\4\245c058f4f616d4abfb46a4f9830d786388daa99
+U
+%08장/chap08-prac09/chap08-prac09.iml,1\d\1dc8a20d831d9045d6875461ad0ba9f9b6529a55
+W
+'08장/chap08-prac09/src/FileDelete.java,a\4\a473720958facc7e18e7ff4212eab0816378a908
+W
+'08장/chap08-prac11/src/WordSearch.java,f\4\f4214f39d1a0fc813bd8e3d759c6268df46f62e4
+�
+Q08장/chap08-prac03-FileReader로한문자씩읽는방법/src/UpperCharacter.java,d\e\deca8994e441c18f72cedc1b55a60d998bab440b
+Q
+!08장/chap08-prac02/src/prac.java,9\c\9c8178d6418f69d1571dd274947d76cdb8a17539
+T
+$08장/chap08-prac11/src/my08_11.java,0\5\0503a2eccf7739beac9d01f78db69e361ba3ee2e
+T
+$09장/chap09-prac01/src/MyFrame.java,7\f\7f6b0f78c7540d31257c2291dab8d44a532e529b
+T
+$06장/chap06-prac01/src/MyPoint.java,6\5\65ce9b5b9ecf15f525fa1beb6a9999fd33520153

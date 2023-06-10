@@ -1,0 +1,14 @@
+
+V
+java:S2259"@A "NullPointerException" could be thrown; "po" is nullable here.(ª¦ñš
+k
+java:S1206"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÐÎØ¶ùÿÿÿÿ
+:
+java:S1659"Declare "y" on a separate line.(±šß¯ùÿÿÿÿ
+:
+java:S2097"Add a type test to this method.(ÐÎØ¶ùÿÿÿÿ
+W
+java:S1126"AReplace this if-then-else statement by a single return statement.(ª¦ñš
+S	java:S106"9Replace this use of System.out or System.err by a logger.(úõ–áùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¯ß×ý
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ûû¦äÿÿÿÿÿ
