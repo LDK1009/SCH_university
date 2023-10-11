@@ -11,7 +11,7 @@ public class HiyokoGenerator : MonoBehaviour
     void Start()
     {
         // InvokeRepeating 메서드를 사용하여 "SpawnObj" 메서드를 0.1초 후부터 일정한 간격(interval)으로 반복 실행합니다.
-        // InvokeRepeating(반복할 함수, 간격, 반복 방법)
+        // InvokeRepeating(반복할 함수, 딜레이 시간(0.1초 후 실행), 간격)
         InvokeRepeating("SpawnObj", 0.1f, interval);
     }
 
