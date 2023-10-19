@@ -7,6 +7,7 @@ public class Out : MonoBehaviour
 {
     void OnTriggerEnter(Collider col)
     {
+        // 충돌 시 씬 재시작
         if (col.gameObject.tag == "Player")
         {
             SceneManager.LoadScene(

@@ -1,0 +1,107 @@
+#데이터셋 불러오기
+from sklearn import datasets
+
+
+
+#SVC 학습모델
+from sklearn import svm
+-	svm.SVC(gamma=0.1 c=10)
+	.fit(data, target)
+	.predict(data)
+
+
+
+#파이플롯
+import matplotlib.pyplot as plt
+-	plt.figure(figsize=(5,5))
+
+-	plt.imshow(digit.images[0], cmap=plt.cm.gray_r, interpolation='nearest')
+
+-	plt.show()
+
+
+
+#훈련/테스트 데이터 분류
+from sklearn.model_selection import train_test_split
+-	x_train, x_test, y_train, y_test=train_test_split(digit.data, digit.target, train_size=0.6)
+
+
+
+#혼동 행렬
+import numpy as np
+	conf=np.zeros((10,10)) 
+	for i in range(len(res)): 
+	    conf[res[i]][y_test[i]]+=1 
+	print(conf)
+	
+	correct=0
+	for i in range(10):
+	    correct+=conf[i][i]
+	accuracy=correct/len(res)
+
+
+
+#교차 검증
+from sklearn.model_selection import cross_val_score
+	accuracies=cross_val_score(s, digit.data, digit.target, cv=5)
+
+
+
+#퍼셉트론
+from sklearn.linear_model import Perceptron
+-	Perceptron(max_iter=100, eta0=0.001, verbose=0)
+
+-	p.fit(datatarget)
+
+-	p.coef_
+
+-	p.intercept_
+
+-	p.predict(data)
+
+-	p.score(data, target)
+
+
+
+#뉴럴 네트워크
+from sklearn.neural_network import MLPclassifier
+-	MLPClassifier(
+	hidden_layer_sizes=(100),      # 은닉층의 뉴런 수 설정
+	learning_rate_init=0.001,       # 학습률 설정
+	batch_size=32,                    # 미니배치 크기 설정
+	max_iter=300,                     # 최대 반복 횟수 설정
+	solver='sgd',                       # 최적화 알고리즘 설정 (확률적 경사 하강법)
+	verbose=True)                    # 학습 과정 출력 설정 (True: 출력 함)
+
+
+
+#텐서플로우
+import tensorflow as tf
+-	tf.random.uniform([2,3] , 0, 1)
+
+-	tf.Variable() #가중치, 편향 초기값 설정
+
+-	tf.add()
+
+-	tf.matmul()
+
+-	tf.sign
+
+
+
+#시퀀셜을 이용한 단일 퍼셉트론 모델
+from tensorflow.keras.models	import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.optimizers import SGD
+-	perceptron = Sequential()
+
+-	perceptron.add(Dense(
+	units=n_output,
+	activation='tanh',           				   # 활성화 함수로 'tanh' 사용
+              input_shape=(n_input,),                        		   # 입력 차원 설정
+              kernel_initializer='random_uniform',            		   # 가중치 초기화 방식 설정
+              bias_initializer='zeros'))                    			   # 편향 초기화 방식 설정
+
+-	perceptron.predict(data)
+
+-	perceptron.evaluate(data, target, verbose=0)

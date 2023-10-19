@@ -1,0 +1,70 @@
+#2D 게임 x축 이동
+transform.Translate(Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime, 0, 0);
+
+#위치 제한 시키기
+transform.position = new Vector2(Mathf.Clamp(transform.position.x, -moveAble, moveAble), transform.position.y);
+
+
+#스페이스 바 입력 감지
+Input.GetKeyDown(KeyCode.Space)
+
+
+#오브젝트 생성
+GameObject newBullet = Instantiate(GameObject, shootPoint.position, Quaternion.identity) as GameObject;
+
+#생성된 오브젝트에 포스 추가
+newBullet.GetComponent<Rigidbody2D>().AddForce(Vector3.up * shootPower);
+
+
+Instantiate(생성할 객체, 위치, 회전)
+InvokeRepeating("반복 실행할 함수명 문자열", 반복 시작 전 딜레이, 반복 시간 텀)
+ 
+
+# 충돌 감지 및 게임 다시 시작
+using UnityEngine.SceneManagement;
+
+void OnTriggerEnter(Collider col)
+{
+    //충돌한 게임 오브젝트의 태그가 플레이어라면
+    if(col.gameObject.tag == "Player")
+    {
+       //현재 씬을 다시 불러온다 즉, 게임 다시 시작
+       SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+}
+
+#타이머 ui
+if(Goal.goal == false)
+{
+	time += Time.deltaTime;
+}
+
+int t = Mathf.FloorToInt(time);
+Text uiText = GetComponent<Text>();
+uiText.text = "Time : " + t;
+
+#최고 기록 저장
+if (PlayerPrefs.HasKey("HighScore")) #저장된 데이터에 HighScore 항목이 있다면 대입
+{
+	highScore = PlayerPrefs.GetInt("HighScore");
+}
+else
+{
+	highScore = 999;
+ }
+
+
+
+#목표 지점 도달 시 결과창 액티브
+        if (Goal.goal)
+        {
+            resultUI.SetActive(true);
+            int result = Mathf.FloorToInt(Timer.time); #Timer 스크립트의 time을 불러와 사용
+            resultTime.text = "ResultTime : " + result;
+            bestTime.text = "BestTime : " + highScore;
+
+            if (highScore > result) # 현재 결과가 시간이 더 짧으면 기록 갱신
+            {
+                PlayerPrefs.SetInt("HighScore", result);
+            }
+        }

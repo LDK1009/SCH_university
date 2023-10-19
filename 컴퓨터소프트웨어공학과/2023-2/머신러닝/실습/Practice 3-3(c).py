@@ -20,7 +20,7 @@ plt.figure(figsize=(100,5)) #새로운 Matplotlib 피규어 (플롯)를 생성�
 for i in range(8): #반복문을 사용하여 처음 8개 얼굴 이미지를 시각화합니다.
     plt.subplot(1, 8, i+1) #현재 플롯의 위치를 설정합니다. 1, 8은 플롯을 1행 8열로 배치하겠다는 의미이고, i+1은 현재 플롯의 인덱스를 나타냅니다.
     plt.imshow(lfw.images[i], cmap=plt.cm.bone) #lfw 데이터셋에서 i번째 얼굴 이미지를 표시합니다. cmap=plt.cm.bone은 이미지를 표시하는 데 사용할 컬러맵을 설정합니다. bone 컬러맵은 회색조 스타일의 컬러맵입니다.
-    plt.title(lfw.target_names[lfw.target[i]]) #플롯의 제목을 설정합니다. 얼굴 이미지에 해당하는 레이블을 lfw.target_names에서 가져와 제목으로 설정합니다.
+     #플롯의 제목을 설정합니다. 얼굴 이미지에 해당하는 레이블을 lfw.target_names에서 가져와 제목으로 설정합니다.
 
 plt.show() #Matplotlib 플롯을 표시합니다. 이로써 처음 8개 얼굴 이미지가 시각화되고, 각 이미지의 레이블이 표시됩니다.
 

@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Sep 26 10:10:42 2023
+
+@author: User
+"""
+
+from sklearn.linear_model import Perceptron
+X= [[0,0],[0,1],[1,0], [1,1]]
+y=[-1,1,1,1]
+
+p=Perceptron()
+p.fit(X,y)
+
+print("학습된 퍼셉트론의 매개변수", p.coef_, p.intercept_)
+print("훈련집합에 대한 예층", p.predict(X))
+print("장확률 측정", p.score(X, y)*100,"%")

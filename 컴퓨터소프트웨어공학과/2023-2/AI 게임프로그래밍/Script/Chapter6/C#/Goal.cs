@@ -12,6 +12,7 @@ public class Goal : MonoBehaviour
         goal = false;
     }
 
+    // 트리거 충돌(Trigger collision)이 발생했을 때 호출되는 메소드
     void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.tag == "Player")
